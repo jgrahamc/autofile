@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Source Code\AutoFile\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSOUTL.OLB=
+C:\Program Files\Common Files\Microsoft Shared\Office10\MSO.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+c:\my source code\autofile\rainbow.exe=
+c:\my source code\autofile\automask.bmp=
+c:\my source code\autofile\autofile.bmp=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\program files\common files\microsoft shared\office10\mso.dll=
+c:\program files\microsoft office\office10\msoutl.olb=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Office10\MSO.DLL=No
+C:\Program Files\Microsoft Office\Office10\MSOUTL.OLB=No
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Source Code\AutoFile\rainbow.exe=Yes
+C:\My Source Code\AutoFile\automask.bmp=Yes
+C:\My Source Code\AutoFile\autofile.bmp=Yes
+C:\Program Files\AutoFile\AutoFile.dll=Yes
+C:\Program Files\AutoFile\drainbow.dll=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\My Source Code\AutoFile\AutoFile.dll=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\drainbow.dll=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\Office10\MSO.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSOUTL.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Source Code\AutoFile\rainbow.exe=$(AppPath)
+C:\My Source Code\AutoFile\automask.bmp=$(AppPath)
+C:\My Source Code\AutoFile\autofile.bmp=$(AppPath)
+C:\Program Files\AutoFile\AutoFile.dll=$(AppPath)
+C:\Program Files\AutoFile\drainbow.dll=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\My Source Code\AutoFile\AutoFile.dll=No
+C:\WINDOWS\SYSTEM\drainbow.dll=No
+C:\My Source Code\AutoFile\rainbow.exe=No
+C:\My Source Code\AutoFile\automask.bmp=No
+C:\My Source Code\AutoFile\autofile.bmp=No
+C:\Program Files\AutoFile\AutoFile.dll=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=AutoFile
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\My Source Code\AutoFile\Package
+ProjectFolder=C:\My Source Code\AutoFile
+ServerSideCab=
+File1=C:\My Source Code\AutoFile\Package\setup.exe
+File2=C:\My Source Code\AutoFile\Package\Setup.Lst
+File3=C:\My Source Code\AutoFile\Package\AutoFile.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
